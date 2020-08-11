@@ -25,9 +25,10 @@
     "product-name",
     "product-identifier.product",
     "product-price",
+    "buy-button",
     "flex-layout.row#qty-sku",
-    "shipping-simulator",
-    "buy-button"
+    "shipping-simulator"
+    
  ],
  "props":{
    "verticalAlign": "middle",
@@ -45,19 +46,5 @@
     "sku-selector",
     "product-quantity"
   ]
-}, "sku-selector":{
-  "props":{
-    "hideImpossibleCombinations": "false"
-  }
-},
-"product-quantity":{
-  "props":{
-    "warningQuantityThreshold": 9999999
-  }
-},
-"shipping-simulator":{
-  "props": {
-    "skuID": "342"
-  }
 }
 }
