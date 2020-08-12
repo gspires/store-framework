@@ -1,20 +1,21 @@
 {
     "store.custom#landing": {
         "blocks": [
-            "image",
+            "image#landingbanner",
             "search-result-layout.customQuery"
         ]
     },
-    "image":{
+    "image#landingbanner":{
         "props": {
+            "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
             "minWidth": "100%"
           }
     },
     "search-result-layout.customQuery":{
         "props":{
             "orderByField": "OrderByReleaseDateDESC",
-            "hideUnavailableItems": true,
-            "maxItemsDepartment": 8,
+            "hideUnavailableItems": false,
+            "maxItemsPerPage": 8,
             "queryField": "Blue Top Retro Camera"
         }
     }
