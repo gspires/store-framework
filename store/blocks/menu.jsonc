@@ -6,7 +6,7 @@
         "menu-item#electronics"
       ],
       "props": {
-        "orientation": "vertical"
+        "orientation": "horizontal"
       }
     },
     "menu-item#major-appliances": {
@@ -27,7 +27,7 @@
       ],
       "props": {
         "width": "auto",
-        "orientation": "vertital"
+        "orientation": "vertical"
       }
     },
     "vtex.menu@2.x:submenu#small": {
@@ -42,7 +42,7 @@
         "menu-item#coffee"
       ],
       "props": {
-        "orientation": "vertital"
+        "orientation": "vertical"
       }
     },
     "vtex.menu@2.x:submenu#electronics": {
@@ -57,7 +57,7 @@
         "menu-item#tvs"
       ],
       "props": {
-        "orientation": "vertital"
+        "orientation": "vertical"
       }
     }
   }
