@@ -6,6 +6,12 @@
             
         ]
     },
+    "flex-layout.row#major": {
+        "children": [
+            "flex-layout.col#menu",
+            "flex-layout.col#img"
+        ]
+    },
     "vtex.menu@2.x:menu#major": {
         "children": [
             "menu-item#refrigerators",
@@ -15,12 +21,6 @@
         "props": {
             "orientation": "vertical"
         }
-    },
-    "flex-layout.row#major": {
-        "children": [
-            "flex-layout.col#menu",
-            "flex-layout.col#img"
-        ]
     },
     "flex-layout.col#menu": {
         "children": [
