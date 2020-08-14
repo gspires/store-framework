@@ -37,7 +37,8 @@
                 "mastercard",
                 "visa",
                 "diners club"
-            ]
+            ],
+            "showInColor": "colored"
         }
     },
     "social-networks": {
